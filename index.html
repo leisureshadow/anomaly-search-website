@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anomaly Search - AI-powered data quality validation platform developed by Hsu Chen">
+    <title>Anomaly Search - AI-Powered Data Quality Validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="langBtn" onclick="toggleLanguage()">中文</button>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Anomaly Search</h1>
+            <nav>
+                <a href="#about" data-en="About" data-zh="關於我們">About</a>
+                <a href="#why-us" data-en="Why Us" data-zh="我們的優勢">Why Us</a>
+                <a href="#impact" data-en="Impact" data-zh="實際影響">Impact</a>
+                <a href="#contact" data-en="Contact" data-zh="聯絡我們">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title" data-en="AI-Powered Data Quality Validation" data-zh="AI驅動的數據品質驗證">AI-Powered Data Quality Validation</h2>
+            <p class="hero-subtitle" data-en="Transform raw data into reliable insights faster" data-zh="更快地將原始數據轉化為可靠的洞察力">Transform raw data into reliable insights faster</p>
+            <a href="#contact" class="cta-button" data-en="Get in Touch" data-zh="聯絡我們">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-en="About Us" data-zh="關於我們">About Us</h2>
+            <div class="content">
+                <p class="en-content">
+                    Developed in Python by <strong>Hsu Chen</strong>, our platform analyzes datasets against company-defined standards and industry guidelines to identify specific data points that are implausible or unrealistic.
+                </p>
+                <p class="zh-content" style="display: none;">
+                    我們的平台由 <strong>Hsu Chen</strong> 使用 Python 開發，能夠根據公司定義的標準和行業準則分析資料集，從而識別出不合理或不切實際的特定數據點。
+                </p>
+                <p class="en-content">
+                    Our goal is to <strong>reduce time spent manually validating data</strong>, identify issues earlier, and support better decision making. We help organizations move from raw data to reliable insight faster.
+                </p>
+                <p class="zh-content" style="display: none;">
+                    我們的目標是<strong>減少人工驗證資料所需的時間</strong>，及早發現問題，並支持更好的決策。我們幫助企業更快地將原始數據轉化為可靠的洞察力。
+                </p>
+                <p class="en-content mission">
+                    We believe data quality should be <strong>transparent and efficient</strong>.
+                </p>
+                <p class="zh-content mission" style="display: none;">
+                    我們堅信數據品質應該<strong>透明且有效率</strong>。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-en="Why Us?" data-zh="我們的優勢">Why Us?</h2>
+            <div class="why-card">
+                <div class="icon">🤖</div>
+                <p class="en-content">
+                    Instead of simply flagging anomalies, we go a step further by using <strong>AI to explain why</strong> specific data points may be problematic, providing context, reasoning, and clarity.
+                </p>
+                <p class="zh-content" style="display: none;">
+                    我們不僅僅是簡單地標記異常數據，而是更進一步，利用<strong>人工智慧來解釋為什麼</strong>某些數據點可能存在問題，從而提供背景資訊、推理過程和清晰的解釋。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-en="Impact" data-zh="實際影響">Impact</h2>
+            <div class="impact-stats">
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <p class="stat-label en-content" data-en="Companies Served" data-zh="服務公司">Companies Served</p>
+                    <p class="stat-label zh-content" style="display: none;" data-en="Companies Served" data-zh="服務公司">服務公司</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">$30K+</div>
+                    <p class="stat-label en-content" data-en="Revenue Generated" data-zh="創造營收">Revenue Generated</p>
+                    <p class="stat-label zh-content" style="display: none;" data-en="Revenue Generated" data-zh="創造營收">創造營收</p>
+                </div>
+            </div>
+            <div class="clients">
+                <h3 class="en-content" data-en="Datasets Processed For:" data-zh="已處理資料的公司：">Datasets Processed For:</h3>
+                <h3 class="zh-content" style="display: none;" data-en="Datasets Processed For:" data-zh="已處理資料的公司：">已處理資料的公司：</h3>
+                <ul class="client-list">
+                    <li><strong>Morelink Technology Corporation</strong> <span class="period">(2024-present)</span></li>
+                    <li><strong>Unifosa Corporation</strong> <span class="period">(2025-present)</span></li>
+                    <li><strong>Phoenix Innovative Materials Inc</strong> <span class="period">(2025-present)</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-en="Contact Us" data-zh="聯絡我們">Contact Us</h2>
+            <div class="contact-content">
+                <p class="en-content">
+                    Have questions, feedback, or want to learn more? We'd love to hear from you.<br>
+                    Reach out at <a href="mailto:seantasbak@gmail.com" class="email-link">seantasbak@gmail.com</a>, and we'll get back to you as soon as possible.
+                </p>
+                <p class="zh-content" style="display: none;">
+                    如果您有任何疑問、意見或想了解更多信息，歡迎與我們聯繫。<br>
+                    請發送郵件至 <a href="mailto:seantasbak@gmail.com" class="email-link">seantasbak@gmail.com</a>，我們會盡快回覆您。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Anomaly Search. <span class="en-content" data-en="All rights reserved." data-zh="版權所有">All rights reserved.</span><span class="zh-content" style="display: none;" data-en="All rights reserved." data-zh="版權所有">版權所有</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
